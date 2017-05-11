@@ -5,7 +5,7 @@
     background: none !important;
 }
 body {
-    background: url(https://i.imgur.com/XdxsLl5.png) !important;
+    background: url(https://raw.githubusercontent.com/THEEYandereChan/Simplicity/master/backgrounds/Dark.png) !important;
     background-size: cover !important;
 }
 .guilds-wrapper,
@@ -1517,7 +1517,7 @@ textarea {
 }
 .title-wrap {
     border-bottom: 1px solid transparent!important;
-    background: rgba(0, 0, 0, 0.88)!important
+    background: solid transparent !important
 }
 .chat .divider:not(.divider-red) > div {
     background: hsla(0, 0%, 100%, 0.2)!important
@@ -5409,10 +5409,10 @@ ul.bda-slist {
     color: hsla(0, 0%, 100%, .3)
 }
 .search .search-bar .search-bar-icon .icon.icon-search-bar-clear {
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…A1NzUsOSBMMTIuNzUsNi4zMDc1IEwxMS42OTI1LDUuMjUgWiIvPgogIDwvZz4KPC9zdmc+Cg==)
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdâ€¦A1NzUsOSBMMTIuNzUsNi4zMDc1IEwxMS42OTI1LDUuMjUgWiIvPgogIDwvZz4KPC9zdmc+Cg==)
 }
 .search .search-bar .search-bar-icon .icon.icon-search-bar-eye-glass {
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…MuNzg5NzQ2Mi0zLjc5NzM0MDktLjIwNDUzNjItLjIwNDk0NjJ6Ii8+CiAgPC9nPgo8L3N2Zz4=)
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdâ€¦MuNzg5NzQ2Mi0zLjc5NzM0MDktLjIwNDUzNjItLjIwNDk0NjJ6Ii8+CiAgPC9nPgo8L3N2Zz4=)
 }
 .search .DraftEditor-root,
 .theme-dark .search .DraftEditor-root {
