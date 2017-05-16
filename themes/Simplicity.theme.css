@@ -1,9 +1,6 @@
 //META{"name":"Simplicity","description":"A simplistic theme compatible with BD and Stylish","author":"THEE Yandere - Chan","version":"2.0v"}*//{}
 
-.theme-dark .ui-standard-sidebar-view
-{
- background-image: url(https://cdn.discordapp.com/attachments/187191479704354816/314179438038351872/Dark.png)!important;
-}
+
 .friends-table {
 	background: #19191b !important;
 	margin-top: 0 !important;
@@ -442,6 +439,12 @@ body {
 	background: rgb(0, 88, 117) !important;
 	color: white !important;
 }
+
+.theme-dark .ui-standard-sidebar-view
+{
+ background-image: url(https://raw.githubusercontent.com/THEEYandereChan/Simplicity/e49b1a98/backgrounds/Dark.png) !important;
+}
+
 #user-profile-modal > header:after {
 	border-bottom: 2px solid white;
 }
