@@ -1,5 +1,9 @@
 //META{"name":"Simplicity","description":"A simplistic theme compatible with BD and Stylish","author":"THEE Yandere - Chan","version":"2.0v"}*//{}
 
+.theme-dark .ui-standard-sidebar-view
+{
+ background-image: url(https://raw.githubusercontent.com/THEEYandereChan/Simplicity/master/backgrounds/Dark.png)
+}
 .friends-table {
 	background: #19191b !important;
 	margin-top: 0 !important;
