@@ -1226,7 +1226,7 @@ a:hover,
 }
 .chat>.content .messages .message-group a,
 .theme-dark .chat>.content .messages .message-group a {
-	color: var(--main-color)
+	color: var(--textcolor)
 }
 .need-help-modal .footer {
 	background-color: rgba(0, 0, 0, 0.88);
