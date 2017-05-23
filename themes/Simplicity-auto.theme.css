@@ -4,10 +4,10 @@
 @import url("https://cdn.rawgit.com/THEEYandereChan/Simplicity/f7b9f9ea/themes/Simplicity%20Beta.theme.css");
 
 
-===== CUSTOMIZABLE COLORS =====
-*/
+/* ===== CUSTOMIZABLE COLORS ===== */
+
 :root { 
  --main-color: #8d2036;
  --hover-color: #6f182a;
  }
-/*
+
