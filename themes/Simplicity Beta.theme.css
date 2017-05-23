@@ -9056,11 +9056,13 @@ div.message-group {
 .chat .content {
 	background-size: cover;
 }
+/*
 .chat>.title-wrap {
 	overflow: hidden;
 	border-radius: 6px 6px 0 0;
 	box-shadow: 1px 1px 1px lightgrey;
 }
+*/
 .flex-vertical .channels-wrap {
 	opacity: 0.85;
 	overflow: hidden !important;
