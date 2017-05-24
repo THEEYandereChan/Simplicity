@@ -164,7 +164,7 @@
 }
 #user-profile-modal .header:after {
     content: ' ';
-    background-image: linear-gradient(-180deg,rgba(255,255,255,.18),rgba(255,255,255,.3));
+    background: (https://cdn.rawgit.com/THEEYandereChan/Simplicity/master/mods/UserPopoutsUpgraded.theme.css);
 }
 #user-profile-modal .header .header-info .header-info-inner {
     padding: 5px;
