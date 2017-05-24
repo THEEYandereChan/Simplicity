@@ -1,5 +1,7 @@
 //META{"name":"Simplicity","description":"A simplistic theme compatible with BD and Stylish","author":"THEE Yandere - Chan","version":"3.0v"}*//{}
 
+//META{"name":"Simplicity","description":"A simplistic theme compatible with BD and Stylish","author":"THEE Yandere - Chan","version":"3.0v"}*//{}
+
 :root {
 	--version-content: "Simplicity Beta"
 }
@@ -518,8 +520,6 @@ body {
 	border: 1px solid white !important;
 }
 .scroller-wrap.fade > .scroller.guilds,
-.user-popout > header,
-.user-popout > .footer,
 .markdown-modal.change-log,
 .markdown-modal-footer,
 .popout-menu-item,
@@ -561,12 +561,7 @@ body {
 .note > textarea:focus,
 .item:hover,
 .scroller-wrap.fade > .scroller > ul > li:hover,
-.region-select-modal-option {
-	background: -webkit-linear-gradient(left, rgba(0, 147, 196, .1), rgba(255, 255, 255, .1)) !important;
-}
-.item.item-subMenu {
-	background: -webkit-linear-gradient(left, rgb(0, 0, 0), rgb(0, 147, 196)) !important;
-}
+
 .markup pre {
 	border-color: rgb(0, 88, 117) !important;
 }
@@ -1560,15 +1555,7 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small {
 .form hr {
 	border-bottom: 1px solid hsla(0, 0%, 100%, .04)
 }
-.user-popout .user-popout-options .btn.btn-server {
-	color: #fff;
-	background-color: var(--main-color);
-	border-color: var(--main-color)
-}
-.user-popout .user-popout-options .btn.btn-server:hover {
-	border-color: var(--main-color);
-	background-color: var(--hover-color)
-}
+
 .member-roles .manipulate:hover {
 	border-color: var(--main-color);
 	background-color: var(--hover-color)
@@ -2061,9 +2048,7 @@ textarea {
 .channel-members .member .member-username {
 	font-size: 14px
 }
-.user-popout .user-popout-options .btn:hover {
-	border: 1px solid var(--main-color)
-}
+
 .tooltip {
 	color: #e0e0e0
 }
@@ -3215,25 +3200,7 @@ form.auth-form {
 	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .1);
 	box-shadow: 0 1px 4px rgba(0, 0, 0, .1)
 }
-.user-popout .header {
-	background: var(--main-color)
-}
-.user-popout .body {
-	background: #000;
-	padding-bottom: 10px
-}
-.user-popout .footer {
-	background: #000;
-	border-top: 2px var(--main-color) solid
-}
-.user-popout .footer .quick-message-wrapper .quick-message {
-	border-color: transparent;
-	background: rgba(0, 0, 0, .5);
-	color: #fff
-}
-.user-popout .avatar-wrapper .avatar-hint {
-	margin: 0
-}
+
 .guilds li:not(.active):not(:first-of-type) {
 	opacity: .65;
 	transition: .4s ease-in-out opacity
@@ -3749,17 +3716,7 @@ div#bd-pub-button:hover {
 #bd-customcss-detach-container {
 	background-color: transparent
 }
-#bd-customcss-detach-container::before {
-	content: "";
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	background: -webkit-linear-gradient(left, rgba(0, 0, 0, .7), rgba(0, 0, 0, .5));
-	background: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .5))
-}
+
 .CodeMirror-gutters {
 	border-right: none;
 	background-color: rgba(0, 0, 0, .5);
@@ -3790,12 +3747,7 @@ div#bd-pub-button:hover {
 .user-popout .footer {
 	background: rgba(0, 0, 0, .65)
 }
-.user-popout .avatar-wrapper .avatar-popout {
-	border: none;
-	background-color: transparent;
-	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5)
-}
+
 .guild-inner .guild-name,
 .guild-inner .guild-nick {
 	margin-left: 5px
@@ -4831,10 +4783,7 @@ span[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR
 	-webkit-transform: scale(.9);
 	transform: scale(.9)
 }
-.user-popout .body,
-.user-popout .footer {
-	cursor: default
-}
+
 .create-guild-container .action.join .action-header {
 	color: var(--main-color)
 }
@@ -5326,8 +5275,7 @@ div.control-group .shortcut-recorder input[type=text]:focus {
 	opacity: .3!important
 }
 .guild-channels,
-.private-channels .scroller {
-	-webkit-mask-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 1) 5%, rgba(0, 0, 0, 1) 95%, transparent 100%)
+
 }
 .guild-channels .channel.sorting::after,
 #settings-roles .roles li.sorting::after {
@@ -5627,9 +5575,7 @@ div.control-group .shortcut-recorder input[type=text]:focus {
 	background-position: center;
 	background-size: 24px
 }
-.user-popout .username-wrapper .discord-tag .username {
-	margin-bottom: 2px
-}
+
 .discriminator,
 .bot-tag.bot-tag-invert {
 	line-height: 12px;
@@ -5981,12 +5927,7 @@ ul.bda-slist {
 .search-results-wrap .search-result .search-result-message.before {
 	opacity: .3
 }
-.search-results-wrap .search-result:not(.expanded) .search-result-message.before {
-	-webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 70%, transparent 100%)
-}
-.search-results-wrap .search-result:not(.expanded) .search-result-message.after {
-	-webkit-mask-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 1) 70%, transparent 100%)
-}
+
 .search-results-wrap .search-result .search-result-message .message-group {
 	padding-bottom: 0
 }
@@ -7402,29 +7343,7 @@ img:not(.emote):not(.emoji)::before {
 	opacity: .7;
 	z-index: 1
 }
-.user-popout .body .roles .member-roles {
-	max-height: 230px;
-	overflow-y: auto
-}
-.user-popout .body .roles .member-roles::-webkit-scrollbar {
-	width: 14px
-}
-.user-popout .body .roles .member-roles::-webkit-scrollbar-thumb {
-	background-clip: padding-box;
-	border: 3px solid transparent
-}
-.user-popout .body .roles .member-roles::-webkit-scrollbar-thumb,
-.user-popout .body .roles .member-roles::-webkit-scrollbar-track-piece,
-.user-popout .body .roles .member-roles::-webkit-scrollbar-thumb,
-.user-popout .body .roles .member-roles::-webkit-scrollbar-track-piece {
-	visibility: hidden
-}
-.user-popout .body .roles .member-roles:hover::-webkit-scrollbar-thumb,
-.user-popout .body .roles .member-roles:hover::-webkit-scrollbar-track-piece,
-.user-popout .body .roles .member-roles:hover::-webkit-scrollbar-thumb,
-.user-popout .body .roles .member-roles:hover::-webkit-scrollbar-track-piece {
-	visibility: visible
-}
+
 .search-bar-clear,
 .emoji-picker .search-bar-clear,
 .search-bar-light .search-bar-clear {
@@ -8337,12 +8256,7 @@ img:not(.emote):not(.emoji)::before {
 	cursor: pointer;
 	margin: 0
 }
-.change-log-button-container:hover {
-	background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3) 85%, transparent)!important
-}
-.change-log-button-container:active {
-	background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.6) 85%, transparent)!important
-}
+
 .change-log-button-container .change-log-button {
 	width: 100%;
 	height: 100%;
@@ -8694,9 +8608,7 @@ img:not(.emote):not(.emoji)::before {
 }
 .theme-light .guilds-wrapper,
 .theme-light .channel-members h2,
-.theme-light .user-popout .header {
-	background: rgba(0, 0, 0, 0.3)!important
-}
+
 .theme-light .account .btn-group,
 .theme-light #rtc-connection .btn-group {
 	background: rgba(0, 0, 0, 0.4)!important
@@ -8710,10 +8622,7 @@ img:not(.emote):not(.emoji)::before {
 .theme-light .friends-table,
 .theme-light .chat .private-channel-call,
 .theme-light .popout-menu,
-.theme-light .user-popout .body,
-.theme-light .user-popout .footer {
-	background: rgba(0, 0, 0, 0.7)!important
-}
+
 .theme-light .channel-members,
 .theme-light .search-results-wrap {
 	background: rgba(0, 0, 0, 0.75)!important
