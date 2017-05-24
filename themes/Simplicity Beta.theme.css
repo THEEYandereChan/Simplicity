@@ -6,7 +6,6 @@
 /* Thank You Message */
 
 body:before {
-	content: "Thanks for using Simplicity!";
 	z-index: 1000000000000000000000000;
 	color: #fff;
 	background: var(--main-color);
@@ -3737,7 +3736,7 @@ div#bd-pub-button:hover {
 	filter: blur(3px)
 }
 .user-popout .header {
-	background: rgba(0, 0, 0, .3)
+	background: rgba(0, 0, 0, 1)
 }
 .user-popout .body {
 	background: rgba(0, 0, 0, .65)
