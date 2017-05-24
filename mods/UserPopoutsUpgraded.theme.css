@@ -1,0 +1,255 @@
+//META{"name":"UserPopouts_Upgraded","description":"Adds a growing backdrop to popouts and stylized User Popouts.","author":"maple","version":"1.22"}*//{}
+
+/* User popout */
+
+.user-popout .avatar-wrapper,
+.user-popout .avatar-wrapper .avatar-popout {
+    border-color: transparent !important;
+    background-color: transparent !important;
+    margin: 0px 0px 0px;
+    width: 100%;
+    height: 242px;
+    display: flex;
+    flex: 1;
+    background-size: 242px 242px;
+    border-radius: 0;
+    background-position: 0px !important;
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+.user-popout .header:hover .avatar-wrapper {
+    -webkit-filter: grayscale(14%);
+    transition: -webkit-filter 500ms ease-out;
+}
+.user-popout .header {
+    height: 232px;
+    transition: -webkit-filter 100ms;
+    background: #fff;
+    border-bottom: 8px solid;
+    color: transparent;
+    z-index: 2;
+}
+.user-popout .avatar-wrapper.no-hover {
+    min-height: 250px;
+    top: 9px;
+}
+.user-popout .header:hover .username-wrapper {
+    width: 200px;
+    margin-top: -180px;
+    border-radius: 10px;
+    position: absolute;
+    top: 342px;
+    transition: top 170ms ease-out;
+}
+.user-popout .username-wrapper {
+    width: 200px;
+    margin-top: -180px;
+    position: absolute;
+    top: 366px;
+    transition: top 270ms ease-in-out;
+    z-index: 0;
+}
+.user-popout .header.streaming .live-on-twitch:hover {
+    background-color: transparent;
+}
+.user-popout .avatar-wrapper:hover .avatar-hint {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 80%, rgba(0,0,0,0) 100%);
+    border-radius: 0;
+    transition: opacity 300ms ease-in 80ms;
+}
+.user-popout .avatar-wrapper .avatar-hint {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 80%, rgba(0,0,0,0) 100%);
+    box-shadow: none;
+    opacity: 0;
+    border-radius: 0;
+    transition: opacity 180ms ease-out 100ms;
+}
+.user-popout :-webkit-any(.nickname, .activity, .discord-tag), .creation-date-wrapper {
+    background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 15%,rgba(0,0,0,0.4) 85%,rgba(0,0,0,0) 100%);
+    width: 200px;
+    max-width: 200px;
+    padding: 0 !important;
+}
+.user-popout .username-wrapper .nickname {
+    margin-bottom: 4px;
+}
+.user-popout .username-wrapper .activity {
+    height: 0px;
+    overflow: hidden;
+    word-break: break-all;
+}
+.user-popout .header:hover .username-wrapper .activity {
+    height: auto;
+    max-height: 35px;
+}
+.user-popout .avatar-wrapper .avatar-popout .status {
+    bottom: -8px;
+    width: 242px;
+    height: 8px;
+    left: 0px;
+    box-shadow: inset 0 0 0 1.8px rgba(255,255,255,.2);
+    border-radius: 0;
+    z-index: 4;
+}
+.user-popout .header:hover .avatar-wrapper .avatar-popout .status {
+    -webkit-filter: contrast(105%);
+    transition: -webkit-filter 480ms ease-out;
+}
+.user-popout .body .section .label {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+.user-popout .username-wrapper .nickname,
+.user-popout .username-wrapper .discord-tag,
+.user-popout .header:hover .username-wrapper .activty,
+.user-popout .header:hover .creation-date-wrapper  {
+    opacity: 1;
+    overflow: hidden;
+    transition: opacity 200ms ease-in;
+    transition-delay: 170ms;
+}
+.user-popout .username-wrapper .actiity,
+.user-popout .creation-date-wrapper {
+    opacity: 0;
+    transition: opacity 200ms;
+}
+.creation-date-wrapper {
+    text-align: center;
+    top: -160px;
+    position: absolute;
+    padding: 3px 0 !important;
+}
+.user-popout .header.streaming .live-on-twitch {
+    position: fixed;
+    top: 20px;
+    left: 34px;
+    border-top: none;
+    border-bottom: 1px solid rgba(255,255,255,.08);
+    background: linear-gradient(to right, rgba(250,250,250,0) 0%,rgba(250,250,250,0.05) 15%,rgba(250,250,250,0.05) 85%,rgba(250,250,250,0) 100%);
+    padding: 4px 25px;
+}
+.user-popout .header.streaming {
+    padding-bottom: 6px;
+}
+.user-popout .header.streaming .status {
+    bottom: -6px;
+}
+.user-popout .header.streaming .avatar-popout {
+    padding-bottom: 4px;
+    top: -2px;
+}
+.user-popout .member-roles {
+    max-height: 90px;
+    overflow-y: scroll;
+}
+.user-popout .member-roles::-webkit-scrollbar {
+    width: 0px;
+}
+.user-popout .body {
+    z-index: 1;
+    padding-top: 4px;
+}
+.user-popout .footer {
+    z-index: 1;
+}
+
+/* User Profile Modal */
+
+#user-profile-modal .header {
+    background-color: rgb(114, 137, 218);
+}
+#user-profile-modal .avatar-wrapper {
+    border: 3px solid white;
+}
+#user-profile-modal .header:after {
+    content: ' ';
+    background-image: linear-gradient(-180deg,rgba(255,255,255,.18),rgba(255,255,255,.3));
+}
+#user-profile-modal .header .header-info .header-info-inner {
+    padding: 5px;
+    margin: -5px;
+    background: #fbfbfb;
+    border-radius: 4px;
+    box-shadow: 1px 2px 3px 0 rgba(20,20,50,.14);
+    word-break: break-all;
+}
+#user-profile-modal .header .additional-actions-icon {
+    -webkit-filter: brightness(200%);
+    border: 1px dashed rgba(255,255,255,.4);
+    border-radius: 5px;
+    top: 14px;
+    right: 14px;
+    padding: 2px 2px;
+    trasition: .2s ease-in;
+}
+#user-profile-modal .header .additional-actions-icon:hover {
+    box-shadow: 0 0 20px -4px rgba(255,255,255,.2) inset;
+}
+#user-profile-modal .header .additional-actions-icon:active {
+    -webkit-filter: brightness(145%);
+}
+#user-profile-modal .header .header-info .header-info-inner .activity {
+    color: rgb(131,134,135) !important;
+    width: auto;
+    max-width: 304px;
+}
+#user-profile-modal .actions .btn.add-friend:-webkit-any(:active, :hover:active) {
+    background: #64c599 !important;
+}
+#user-profile-modal .actions .btn.add-friend:hover {
+    background: #71cea3;
+}
+#user-profile-modal .actions .btn.add-friend {
+    margin-left: -5px;
+    box-shadow: 1px 2px 3px 0 rgba(20,20,45,.06);
+    background: #48c78d;
+}
+#user-profile-modal .actions .btn:-webkit-any(.disabled, .disabled:hover) {
+    opacity: 1;
+    margin-left: -5px;
+    background: rgba(250,250,250,.1) !important;
+    color: #fff;
+    border: 1px dashed rgba(210,210,210,.6);
+}
+#user-profile-modal .header .header-info,
+#user-profile-modal .actions {
+    margin-left: -44px;
+}
+#user-profile-modal .header .header-info {
+    padding-top: 6px;
+}
+#user-profile-modal .avatar-wrapper {
+    border-radius: 100%;
+    top: 37px;
+    left: 16px;
+    box-shadow: 1px 0px 8px 0px rgba(50,56,97,.24);
+}
+#user-profile-modal .status {
+    border: 3px solid #fff;
+    box-shadow: 1px 2px 5px 0px rgba(50,56,97,.08);
+}
+#user-profile-modal .tab-bar-container {
+    padding-left: 170px;
+    padding-right: 64px;
+    background: #fcfcfc;
+}
+#user-profile-modal .tab-bar {
+    width: 100%;
+    justify-content: space-between;
+}
+#user-profile-modal .tab-bar .tab-bar-item {
+    padding: 0 10px 20px;
+}
+#user-profile-moda .tab-bar.TOP .tab-bar-item+.tab-bar-item {
+    margin-left: 0px;
+}
+#user-profile-modal .scroller {
+    background: #f9f9f9;
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account {
+    background: #fff;
+}
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
+    color: #030303 !important;
+}
