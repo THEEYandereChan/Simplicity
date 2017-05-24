@@ -744,7 +744,7 @@ label,
 	filter: brightness(400%) !important;
 }
 .account::after {
-	content: "Simplicity v3.0";
+	content: "Simplicity Beta";
 	color: #fff;
 	font-size: 11px;
 	font-weight: 700;
