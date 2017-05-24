@@ -157,7 +157,7 @@
 /* User Profile Modal */
 
 #user-profile-modal .header {
-    background-color: rgb(114, 137, 218);
+    background-image: url(https://i.imgur.com/AMJKUUs.png);
 }
 #user-profile-modal .avatar-wrapper {
     border: 3px solid white;
