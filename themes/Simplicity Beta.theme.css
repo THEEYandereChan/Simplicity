@@ -468,7 +468,6 @@ body {
 .callout-backdrop,
 .markup code.inline,
 .markup pre code.hljs,
-#user-profile-modal > .scroller-wrap.fade > .scroller.guilds > .guild:hover,
 .roles > .scroller-wrap.fade > .scroller > ul > li:hover,
 .scroller > ul > li.selected,
 .scroller.channel-members > .member:hover,
@@ -492,9 +491,7 @@ body {
 .btn-primary,
 .tab-bar-item.selected:before,
 .btn.btn-primary,
-#user-profile-modal > header,
 .new-messages-bar,
-#user-profile-modal > footer,
 .region-select:hover > button,
 .popout-menu-item:hover,
 .guilds-wrapper > .scroller-wrap > .scroller.guilds > .guild.selected > div > .guild-inner {
@@ -504,9 +501,7 @@ body {
 .theme-dark .ui-standard-sidebar-view {
 	background-image: url(https://raw.githubusercontent.com/THEEYandereChan/Simplicity/e49b1a98/backgrounds/Dark.png) !important;
 }
-#user-profile-modal > header:after {
-	border-bottom: 2px solid white;
-}
+
 #autocomplete-popout > section > .scroller-wrap > .scroller {
 	border-top: 2px solid white;
 }
@@ -549,9 +544,8 @@ body {
 .region-select-modal {
 	background: -webkit-linear-gradient(left, rgb(0, 88, 117), rgb(0, 147, 196)) !important;
 }
-#user-profile-modal > header:after {
-	background: -webkit-linear-gradient(left, rgb(0, 100, 140), rgb(0, 174, 232)) !important;
-}
+
+
 .tab-bar-container {
 	background: -webkit-linear-gradient(left, rgb(0, 69, 92), rgb(0, 114, 150)) !important;
 }
@@ -1147,7 +1141,6 @@ a,
 .chat .message-group a,
 .chat .title-wrap .topic a,
 .mentioned .mention,
-#user-profile-modal .guilds .section .connected-account .connected-account-name a,
 .theme-dark .chat .title-wrap .topic a,
 .markdown-modal a,
 .user-settings-modal a,
@@ -1170,7 +1163,6 @@ a:hover,
 .chat .message-group a:hover,
 .chat .title-wrap .topic a:hover,
 .mentioned .mention:hover,
-#user-profile-modal .guilds .section .connected-account .connected-account-name a:hover,
 .theme-dark .chat .title-wrap .topic a:hover,
 .markdown-modal a:hover,
 .user-settings-modal a:hover,
@@ -2320,11 +2312,7 @@ a:link {
 	-webkit-box-shadow: 0 -1px rgba(0, 0, 0, 0.37);
 	box-shadow: 0 -1px rgba(0, 0, 0, 0.37)
 }
-.tab-bar.TOP .tab-bar-item.selected,
-#user-profile-modal .tab-bar.TOP .tab-bar-item.selected {
-	border-bottom: 2px solid var(--main-color);
-	color: var(--main-color)
-}
+
 .radio .radio-inner span::after {
 	background: var(--main-color)
 }
@@ -4856,14 +4844,8 @@ span[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR
 .create-guild-container .action:hover.join .btn {
 	background-color: var(--hover-color)!important
 }
-.tab-bar.TOP .tab-bar-item,
-#user-profile-modal .tab-bar.TOP .tab-bar-item {
-	color: #909090
-}
-.tab-bar.TOP .tab-bar-item:hover,
-#user-profile-modal .tab-bar.TOP .tab-bar-item:hover {
-	border-color: #909090
-}
+
+
 .chat>.title-wrap>.topic .aka {
 	background: rgba(100, 100, 100, .5)
 }
@@ -7852,11 +7834,8 @@ img:not(.emote):not(.emoji)::before {
 ::-webkit-scrollbar-corner {
 	background: transparent
 }
-.keyboard-shortcuts-modal .scroller::-webkit-scrollbar,
-#user-profile-modal .scroller::-webkit-scrollbar {
-	width: 14px;
-	height: 14px
-}
+
+
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb,
 .emoji-picker .scroller::-webkit-scrollbar-thumb {
 	background-color: var(--main-color)!important;
@@ -7965,46 +7944,13 @@ img:not(.emote):not(.emoji)::before {
 .channel-textarea .channel-textarea-inner textarea::-webkit-scrollbar {
 	display: none
 }
-#user-profile-modal .scroller {
-	background: rgba(0, 0, 0, 0.83)
-}
-#user-profile-modal .friends .friend:hover {
-	background: #26292D;
-	color: #ADADAD
-}
-#user-profile-modal footer {
-	background: rgba(0, 0, 0, 0.83);
-	border-top: none
-}
-#user-profile-modal footer button {
-	color: var(--main-color)
-}
-#user-profile-modal .sub-header {
-	background: rgba(0, 0, 0, 0.83)
-}
-#user-profile-modal .tab-bar-container {
-	background: rgba(0, 0, 0, 0.83);
-	border-bottom: 1px solid rgba(0, 0, 0, 0.4)
-}
-#user-profile-modal .btn {
-	background-color: var(--main-color)
-}
-#user-profile-modal .btn:hover {
-	background-color: var(--hover-color)
-}
-#user-profile-modal .guilds .guild:hover {
-	background: linear-gradient(90deg, rgba(0, 0, 0, 0.61) 90%, transparent);
-	color: #D8D8D8
-}
-#user-profile-modal .empty {
-	background: rgba(0, 0, 0, 0.83)
-}
+
+
+
 #user-profile-modal .avatar-wrapper {
 	background-color: transparent
 }
-#user-profile-modal .avatar-profile {
-	border: 6px solid var(--main-color)!important
-}
+
 #user-profile-modal .actions .btn.add-friend,
 #user-profile-modal .actions .btn.reject-friend {
 	-webkit-transition: all .3s ease-in-out;
@@ -8058,11 +8004,7 @@ img:not(.emote):not(.emoji)::before {
 #user-profile-modal .actions .btn.disabled:hover {
 	background: #777!important
 }
-#user-profile-modal .header {
-	background: -webkit-linear-gradient(top, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.5));
-	background: linear-gradient(top, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.5));
-	overflow: hidden
-}
+
 #user-profile-modal .header::before {
 	content: "";
 	position: absolute;
