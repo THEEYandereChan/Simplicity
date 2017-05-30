@@ -37,7 +37,7 @@
 .user-popout .header:hover .username-wrapper {
     width: 200px;
     margin-top: -180px;
-    border-radius: 10px;
+    
     position: absolute;
     top: 342px;
     transition: top 170ms ease-out;
@@ -160,7 +160,7 @@
     background: url(https://i.imgur.com/AMJKUUs.png);
 }
 #user-profile-modal .avatar-wrapper {
-    border: 3px solid white;
+    
 }
 #user-profile-modal .header:after {
     content: ' ';
@@ -253,3 +253,6 @@
 #user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
     color: #030303 !important;
 }
+Contact GitHub API Training Shop Blog About
+
+
