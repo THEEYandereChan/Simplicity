@@ -25,7 +25,7 @@
 .user-popout .header {
     height: 232px;
     transition: -webkit-filter 100ms;
-    background: #fff;
+    background: solid transparent !important;
     border-bottom: 8px solid;
     color: transparent;
     z-index: 2;
@@ -164,12 +164,11 @@
 }
 #user-profile-modal .header:after {
     content: ' ';
-    background: (https://cdn.rawgit.com/THEEYandereChan/Simplicity/master/mods/UserPopoutsUpgraded.theme.css);
+    background: url(https://i.imgur.com/AMJKUUs.png);
 }
 #user-profile-modal .header .header-info .header-info-inner {
     padding: 5px;
     margin: -5px;
-    background: #fbfbfb;
     border-radius: 4px;
     box-shadow: 1px 2px 3px 0 rgba(20,20,50,.14);
     word-break: break-all;
@@ -248,7 +247,7 @@
     background: #f9f9f9;
 }
 #user-profile-modal .guilds .section .connected-accounts .connected-account {
-    background: #fff;
+    background: solid transparent !important;
 }
 #user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
     color: #030303 !important;
