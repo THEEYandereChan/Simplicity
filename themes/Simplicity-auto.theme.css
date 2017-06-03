@@ -7,8 +7,8 @@
 
 /* Load Base theme */
 @import url("https://cdn.rawgit.com/THEEYandereChan/Simplicity/master/themes/Simplicity%20Beta.theme.css");
-/* ===== CUSTOMIZABLE COLORS ===== */
 
+/* ===== CUSTOMIZABLE COLORS ===== */
 :root {
 	--main-color: #808080;
 	--hover-color: #6f182a;
