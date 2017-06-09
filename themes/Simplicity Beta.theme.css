@@ -8909,6 +8909,53 @@ div.message-group {
 .theme-light .hljs {
 	color: white;
 }
+.theme-dark {
+	margin: 0px;
+}
+/*div.theme-dark .popout .popout-bottom {
+    top: 56px;
+}
+
+div.popout-menu:not(.status-picker) {
+    padding: 2px 2px 0;
+}*/
+
+.win-buttons{
+	top: -22px;
+	padding-right: 25px;
+}
+
+.app .flex-vertical .theme-dark {
+	margin: 0px;
+}
+.ui-form-title {
+	color: white;
+}
+
+
+
+.container-RYiLUQ {
+	    background: transparent;
+}
+
+.popout-menu:not(.status-picker) {
+	padding: 2px 2px 0;
+	margin-top: 56px;
+}
+
+.theme-dark .ui-standard-sidebar-view .sidebar-region {
+	background: transparent;
+}
+.theme-dark .ui-standard-sidebar-view .content-region {
+	background: transparent;
+}
+
+.theme-light .ui-standard-sidebar-view .sidebar-region {
+	background: transparent;
+}
+.theme-light .ui-standard-sidebar-view .content-region {
+	background: transparent;
+}
 /* Better discord area */
 /*
 .bd-detached-editor .app {
