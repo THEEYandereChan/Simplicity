@@ -8887,6 +8887,7 @@ div.message-group {
 	box-shadow: 1px 1px 1px lightgrey;
 }
 */
+/*
 .flex-vertical .channels-wrap {
 	opacity: 0.85;
 	overflow: hidden !important;
@@ -8904,6 +8905,7 @@ div.message-group {
 	overflow: hidden;
 	border-radius: 6px;
 }
+*/
 .theme-light .hljs {
 	color: white;
 }
