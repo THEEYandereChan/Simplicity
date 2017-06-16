@@ -3,7 +3,8 @@
 
 
 :root {
-	--version-content: "Simplicity Beta"
+	--version-content: "Simplicity Beta";
+
 }
 
 /* Start Expirimental Code */
@@ -2351,7 +2352,9 @@ textarea {
 .mention:hover,
 .chat > .content .messages .message-group .markup .mention:hover {
 	color: #fff!important
+	text-shadow: 1px 1px black;
 }
+
 .chat > .content .messages .message-group .markup {
 	line-height: 1em
 }
@@ -9326,7 +9329,8 @@ div.popout-menu:not(.status-picker) {
 
 
 .container-RYiLUQ {
-	    background: transparent;
+  background: transparent;
+	text-shadow: 1px 1px black;
 }
 
 .popout-menu:not(.status-picker) {
@@ -9355,6 +9359,32 @@ div.popout-menu:not(.status-picker) {
 
 div.helper {
     visibility: hidden; 
+}
+
+.channel-members, .theme-dark .channel-members {
+	background-color: transparent;
+}
+
+.theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
+    background: linear-gradient(to right, rgba(18, 18, 19, 0.44) 85%, rgba(0, 0, 0, 0.58)) !important;
+}
+
+.channel-members .member .member-activity, .channel-members .member .member-activity strong {
+	color: rgba(231, 231, 233, 1);
+	text-shadow: 1px 1px black;
+}
+
+.upload-modal .footer .button + .button {
+  color: grey;
+  background-color: : #b1b0b0;
+}
+
+.nameDefaultText-QoumjC {
+  color: rgba(255, 255, 255, 0.68);
+}
+
+.nameMutedText-1YDcP-, .nameMutedVoice-26k4cP {
+	    text-shadow: 0px 0px black;
 }
 
 /* Better discord area */
