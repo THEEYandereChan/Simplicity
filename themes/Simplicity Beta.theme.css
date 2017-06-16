@@ -9347,6 +9347,16 @@ div.popout-menu:not(.status-picker) {
 .theme-light .ui-standard-sidebar-view .content-region {
 	background: transparent;
 }
+
+.container-iksrDt {
+	background: transparent;
+
+}
+
+div.helper {
+    visibility: hidden; 
+}
+
 /* Better discord area */
 /*
 .bd-detached-editor .app {
