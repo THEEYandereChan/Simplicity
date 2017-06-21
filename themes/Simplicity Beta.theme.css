@@ -1,10 +1,11 @@
-//META{"name":"Simplicity","description":"A simplistic theme compatible with BD and Stylish","author":"THEE Yandere - Chan","version":"3.0v"}*//{}
+﻿//META{"name":"Simplicity","description":"A simplistic theme compatible with BD and Stylish","author":"THEE Yandere - Chan","version":"3.0v"}*//{}
 @import url("https://cdn.rawgit.com/THEEYandereChan/Simplicity/master/mods/UserPopoutsUpgraded.theme.css");
 
 
 :root {
 	--version-content: "Simplicity Beta";
-
+	--main-color: #808080;
+	--hover-color: #6f182a;
 }
 
 /* Start Expirimental Code */
@@ -81,7 +82,10 @@ padding:15px 20px 15px 18px !important;}
 
 .channel-members .member:hover{background:rgba(255, 255, 255, 0.07) !important;}
 
-.channel-members .member .member-username{font-size:15px;}
+.channel-members .member .member-username{
+	font-size:15px;
+  text-shadow: 1px 1px black;
+}
 
 .channel-members .member .member-game{font-size:10px;}
 
@@ -9379,12 +9383,17 @@ div.helper {
   background-color: : #b1b0b0;
 }
 
-div.nameDefaultText-QoumjC, div.nameDefaultVoice-1swZoh, div.nameLockedText-2fGz07, div.nameLockedVoice-wNOMNa, div.nameDefault-Lnjrwm  {
+div.nameDefaultText-QoumjC, div.nameDefaultVoice-1swZoh, div.nameLockedText-2fGz07, div.nameLockedVoice-wNOMNa, div.nameDefault-Lnjrwm {
   color: rgba(255, 255, 255, 0.68);
 }
 
+
 .nameMutedText-1YDcP-, .nameMutedVoice-26k4cP {
 	    text-shadow: 0px 0px black;
+}
+
+.activity strong {
+    color: white;
 }
 
 /* Better discord area */
