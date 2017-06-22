@@ -22,6 +22,7 @@ dynamically load the theme without having to download any files.
 :root {
 	--main-color: #808080;
 	--hover-color: #6f182a;
+	--bgurl : url(https://raw.githubusercontent.com/THEEYandereChan/Simplicity/master/backgrounds/wallhaven-436907.jpg);
 }
 ```
 
@@ -43,8 +44,9 @@ Use this to download the files
 :root {
 	--main-color: #808080;
 	--hover-color: #6f182a;
+	--bgurl : url(https://raw.githubusercontent.com/THEEYandereChan/Simplicity/master/backgrounds/wallhaven-436907.jpg);
 }
 ```
 
 # Preview
-![Preview](https://vgy.me/E889yF.png)
+![Preview](https://vgy.me/5UweEN.png)
