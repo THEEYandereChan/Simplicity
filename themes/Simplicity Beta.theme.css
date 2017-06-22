@@ -9584,6 +9584,10 @@ div.message-group {
     background-size: cover;
 }
 
+.title-wrap.title-wrap-dark {
+  padding-right: 120px;
+}
+
 /* Better discord area */
 /*
 .bd-detached-editor .app {
