@@ -6,6 +6,7 @@
 	--version-content: "Simplicity Beta";
 	--main-color: #808080;
 	--hover-color: #6f182a;
+  --bgurl : url(https://raw.githubusercontent.com/THEEYandereChan/Simplicity/master/backgrounds/wallhaven-436907.jpg);
 }
 
 /* Start Expirimental Code */
@@ -828,7 +829,7 @@ span:not(.spinner-item) {
 	background: none !important;
 }
 body {
-	background: url(https://raw.githubusercontent.com/THEEYandereChan/Simplicity/master/backgrounds/wallhaven-436907.jpg) !important;
+	background: var(--bgurl) !important;
 	background-size: fill !important;
 	/*Thank Romz for this */
 }
@@ -898,7 +899,7 @@ body {
 	color: white !important;
 }
 .theme-dark .ui-standard-sidebar-view {
-	background-image: url(https://raw.githubusercontent.com/THEEYandereChan/Simplicity/master/backgrounds/wallhaven-436907.jpg) !important;
+	background-image: var(--bgurl) !important;
 	background-size: fill !important;
 }
 
