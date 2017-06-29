@@ -4,7 +4,7 @@ A theme made for simplicity and ease of use
 Feel free to use it, leave feedback and suggest new features!
 For the best results, **use the dark theme**.
 
-Designed by *THEE Yandere-Chan* ; latest version: **2.9.6**.
+Designed by *THEE Yandere-Chan* ; latest version: **3.1.0**.
 
 # Dynamic Import
 Paste this link in your Custom CSS section if you want to
