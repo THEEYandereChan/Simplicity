@@ -61,7 +61,7 @@
 
 ## Features
 - __minimal size:__ weighing `298kb`, `Simplcity` is a tiny little theme
-- __small api:__ with only 3 lines to change learnign is easy
+- __small api:__ with only 3 lines to change learning is easy
 - __very cute:__ choo choo!
 
 ## Example
