@@ -4,10 +4,10 @@
   :steam_locomotive::train::train::train::train::train:
 </div>
 <div align="center">
-  <strong>Fun functional programming</strong>
+  <strong>Aesthetic Based</strong>
 </div>
 <div align="center">
-  A <code>4kb</code> framework for creating sturdy frontend applications
+  A <code>Simplistic</code> theme with infinite possibility
 </div>
 
 <br />
