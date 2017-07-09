@@ -61,8 +61,7 @@
 
 ## Features
 - __minimal size:__ weighing `298kb`, `Simplcity` is a tiny little theme
-- __small api:__ with only 6 methods there's not much to learn
-- __minimal tooling:__ built for the cutting edge `browserify` compiler
+- __small api:__ with only 3 lines to change learnign is easy
 - __very cute:__ choo choo!
 
 ## Example
