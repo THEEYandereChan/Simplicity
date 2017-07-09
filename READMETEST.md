@@ -33,10 +33,7 @@
     <img src="https://img.shields.io/codecov/c/github/yoshuawuyts/choo/master.svg?style=flat-square"
       alt="Test Coverage" />
   </a>
-  <!-- Downloads -->
-  <a href="https://npmjs.org/package/choo">
-    <img src="https://img.shields.io/npm/dm/choo.svg?style=flat-square"
-      alt="Downloads" />
+  
   </a>
   <!-- Standard -->
   <a href="https://standardjs.com">
