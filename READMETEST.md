@@ -74,9 +74,8 @@
 - __very cute:__ choo choo!
 
 ## Example
-# Preview
 ![Preview](https://vgy.me/5UweEN.png)
-Want to see more examples? Check out the [Choo handbook][handbook].
+
 
 ### Is Simplicity Discord ready?
 Sure.
