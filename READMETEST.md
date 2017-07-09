@@ -80,77 +80,26 @@
 ### Is Simplicity Discord ready?
 Sure.
 
-## API
-This section provides documentation on how each function in `Simplcity` works. It's
-intended to be a technical reference. If you're interested in learning choo for
-the first time, consider reading through the [handbook][handbook] first
-:sparkles:
-
-### `app = choo([opts])`
-Initialize a new `choo` instance. `opts` can also contain the following values:
-- __opts.history:__ default: `true`. Listen for url changes through the
-  history API.
-- __opts.href:__ default: `true`. Handle all relative `<a
-  href="<location>"></a>` clicks and call `emit('render')`
-
-### `app.use(callback(state, emitter))`
-Call a function and pass it a `state` and `emitter`. `emitter` is an instance
-of [nanobus](https://github.com/yoshuawuyts/nanobus/). You can listen to
-messages by calling `emitter.on()` and emit messages by calling
-`emitter.emit()`.
-
-See [#events](#events) for an overview of all events.
-
-### `app.route(routeName, handler(state, emit))`
-Register a route on the router. The handler function is passed `app.state`
-and `app.emitter.emit` as arguments. Uses [nanorouter][nanorouter] under the
-hood.
-
-See [#routing](#routing) for an overview of how to use routing efficiently.
-
-### `app.mount(selector)`
-Start the application and mount it on the given `querySelector`. Uses
-[nanomount][nanomount] under the hood. This will _replace_ the selector provided
-with the tree returned from `app.start()`. If you want to add the app as a child
-to an element, use `app.start()` to obtain the tree and manually append it.
-
-### `tree = app.start()`
-Start the application. Returns a tree of DOM nodes that can be mounted using
-`document.body.appendChild()`.
-
-### `app.toString(location, [state])`
-Render the application to a string. Useful for rendering on the server.
-
-### `choo/html`
-Create DOM nodes from template string literals. Exposes
-[bel](https://github.com/shama/bel). Can be optimized using
-[yo-yoify][yo-yoify].
 
 ## Installation
-```sh
-$ npm install choo
+```css
+//META{"name":"Simplicity","description":"A simplistic theme compatible with BD and Stylish","author":"THEE Yandere - Chan","version":"3.0v"}*//{}
+
+/* IMPORT CSS FROM GITHUB */
+
+/* Mod Loader */
+@import url("https://cdn.rawgit.com/THEEYandereChan/Simplicity/master/mods/UserPopoutsUpgraded.theme.css");
+
+/* Load Base theme */
+@import url("https://cdn.rawgit.com/THEEYandereChan/Simplicity/master/themes/Simplicity%20Beta.theme.css");
+/* ===== CUSTOMIZABLE COLORS ===== */
+
+:root {
+	--main-color: #808080;
+	--hover-color: #6f182a;
+	--bgurl : url(https://raw.githubusercontent.com/THEEYandereChan/Simplicity/master/backgrounds/wallhaven-436907.jpg);
+}
 ```
-
-
-
-
-
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
-
-[bankai]: https://github.com/yoshuawuyts/bankai
-[bel]: https://github.com/shama/bel
-[browserify]: https://github.com/substack/node-browserify
-[budo]: https://github.com/mattdesl/budo
-[es2020]: https://github.com/yoshuawuyts/es2020
-[handbook]: https://github.com/yoshuawuyts/choo-handbook
-[hyperx]: https://github.com/substack/hyperx
-[morphdom-bench]: https://github.com/patrick-steele-idem/morphdom#benchmarks
-[nanomorph]: https://github.com/yoshuawuyts/nanomorph
-[nanorouter]: https://github.com/yoshuawuyts/nanorouter
-[nanomount]: https://github.com/yoshuawuyts/nanomount
-[yo-yo]: https://github.com/maxogden/yo-yo
-[yo-yoify]: https://github.com/shama/yo-yoify
-[unassertify]: https://github.com/unassert-js/unassertify
-[window-performance]: https://developer.mozilla.org/en-US/docs/Web/API/Performance
