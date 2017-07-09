@@ -62,8 +62,7 @@
 - [Features](#features)
 - [Example](#example)
 - [Installation](#installation)
-- [See Also](#see-also)
-- [Support](#support)
+
 
 ## Features
 - __minimal size:__ weighing `4kb`, `choo` is a tiny little framework
