@@ -18,11 +18,6 @@
     <img src="https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square"
       alt="API stability" />
   </a>
-  <!-- NPM version -->
-  <a href="https://npmjs.org/package/choo">
-    <img src="https://img.shields.io/npm/v/choo.svg?style=flat-square"
-      alt="NPM version" />
-  </a>
   <!-- Build Status -->
   <a href="https://travis-ci.org/yoshuawuyts/choo">
     <img src="https://img.shields.io/travis/yoshuawuyts/choo/master.svg?style=flat-square"
