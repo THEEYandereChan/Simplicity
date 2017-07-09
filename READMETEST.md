@@ -51,9 +51,9 @@
 </div>
 
 <div align="center">
-  <sub>The little framework that could. Built with ❤︎ by
-  <a href="https://twitter.com/yoshuawuyts">Yoshua Wuyts</a> and
-  <a href="https://github.com/yoshuawuyts/choo/graphs/contributors">
+  <sub>The Simple route. Made with ❤︎ by
+  <a href="">THEE Yandere Chan</a> and
+  <a href="https://github.com/THEEYandereChan/Simplicity/graphs/contributors">
     contributors
   </a>
 </div>
@@ -61,14 +61,6 @@
 ## Table of Content
 - [Features](#features)
 - [Example](#example)
-- [Philosophy](#philosophy)
-- [Events](#events)
-- [State](#state)
-- [Routing](#routing)
-- [Server Rendering](#server-rendering)
-- [Optimizations](#optimizations)
-- [FAQ](#faq)
-- [API](#api)
 - [Installation](#installation)
 - [See Also](#see-also)
 - [Support](#support)
