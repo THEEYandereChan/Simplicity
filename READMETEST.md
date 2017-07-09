@@ -1,4 +1,4 @@
-<h1 align="center">choo</h1>
+<h1 align="center">Simplicity</h1>
 
 <div align="center">
   :steam_locomotive::train::train::train::train::train:
