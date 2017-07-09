@@ -9588,6 +9588,10 @@ div.message-group {
   padding-right: 120px;
 }
 
+.message-group .edit-message .edit-container-outer{
+	margin-left: 0px;
+}
+
 /* Better discord area */
 /*
 .bd-detached-editor .app {
