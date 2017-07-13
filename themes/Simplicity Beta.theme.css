@@ -3,7 +3,7 @@
 
 
 :root {
-	--version-content: "Simplicity Beta";
+	--version-content: "Simplicity 1π";
 	--main-color: #808080;
 	--hover-color: #6f182a;
 	--chat-text-color: #808080;
@@ -13,7 +13,7 @@
 /* Start Expirimental Code */
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "Simplicity Beta"
+	--version-content: "Simplicity 1π"
 }
 /* Version Displayed */
 
