@@ -1,4 +1,4 @@
-//META{"name":"Simplicity","description":"A simplistic theme compatible with BD and Stylish","author":"THEE Yandere - Chan","version":"3.1π"}*//{}
+//META{"name":"Simplicity Auto","description":"A simplistic theme compatible with BD and Stylish","author":"THEE Yandere - Chan","version":"3.1π"}*//{}
 
 /* IMPORT CSS FROM GITHUB */
 
@@ -10,7 +10,18 @@
 
 /* ===== CUSTOMIZABLE COLORS ===== */
 :root {
-	--main-color: #808080;
-	--hover-color: #6f182a;
-        --bgurl : url(https://raw.githubusercontent.com/THEEYandereChan/Simplicity/master/backgrounds/wallhaven-436907.jpg);
+	--main-color: #D56FBC; /* Pink */
+	--hover-color: #382A78; /* Violet/Dark Purple */
+	--bgurl: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-347539.jpg);
+	--chat-text-color: #E3D4E7;
 }
+
+/* Original Colors
+
+
+--main-color: #808080;
+	--hover-color: #6f182a;
+	--bgurl: https://wallpaperlayer.com/img/2015/6/gaussian-blur-wallpaper-3240-3444-hd-wallpapers.jpg;
+
+
+ */
