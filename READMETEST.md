@@ -89,6 +89,7 @@ Sure.
 	--main-color: #808080;
 	--hover-color: #6f182a;
 	--bgurl : url(https://raw.githubusercontent.com/THEEYandereChan/Simplicity/master/backgrounds/wallhaven-436907.jpg);
+	--chat-text-color: #E3D4E7;
 }
 ```
 
