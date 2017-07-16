@@ -57,7 +57,7 @@
 - [Features](#features)
 - [Example](#example)
 - [Installation](#installation)
-- [Is it ready](#Is Simplicity Discord ready?)
+- [Ready](#Is Simplicity Discord ready?)
 
 
 ## Features
