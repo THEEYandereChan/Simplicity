@@ -18860,7 +18860,7 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
 }
 
 /* Loading Animation*/
-
+/*
 #app-mount::before {
     content: "";
     background: transparent;
@@ -19080,3 +19080,4 @@ img[src="/assets/616e078b351d0df460971441949c53a3.svg"] {
         opacity: 0;
     }
 }
+*/
