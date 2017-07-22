@@ -641,7 +641,7 @@ span:not(.spinner-item) {
 }
 #friends .friends-table .friends-table-body .friends-row .friends-column-guilds {
 	/* .friends-table-body is important here */
-	
+
 	top: 80px;
 	left: 115px;
 	width: 150px;
@@ -1696,6 +1696,10 @@ a:hover,
 .chat>.content .messages .message-group a,
 .theme-dark .chat>.content .messages .message-group a {
 	color: var(--textcolor)
+}
+
+.theme-dark .inner-3if5cm {
+	background-color: rgba(114, 118, 126, 0.08);
 }
 
 .need-help-modal .footer {
@@ -9494,7 +9498,7 @@ div.popout-menu:not(.status-picker) {
 }
 
 div.helper {
-    visibility: hidden; 
+    visibility: hidden;
 }
 
 .channel-members, .theme-dark .channel-members {
