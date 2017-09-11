@@ -1,3 +1,14 @@
+/* ===== CUSTOMIZABLE COLORS ===== */
+:root {
+	--main-color: #93261a; /* Pink */
+	--hover-color: #8c2216; /* Violet/Dark Purple */
+	--popoutColor: #000000;
+	--bgurl: url(https://discord.is-pretty.sexy/d9ab88.jpg);
+	--backdrop: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-509261.jpg);
+	--chat-text-color: #E3D4E7;
+}
+
+
 /* Mod Loader */
 /* @import url(https://rawgit.com/GimoTheBeast/Discord-Theme-Fixes/master/fixesImport/fixesClean.css); */
 
@@ -50,13 +61,7 @@
    background: rgba(0, 0, 0, 0.75);
 }
 
-body {
-  background: url("https://discord.is-pretty.sexy/d9ab88.jpg") !important;
-  background-size: cover !important;
-  background-attachment: fixed !important;
-  background-position: right !important;
-  background-repeat: no-repeat !important;
-}
+
 
 .friends-icon {
    background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_question_answer_white_24px.svg) !important;
@@ -178,14 +183,13 @@ code.inline {
 	color: #fff !important;
 }
 
-/* ===== CUSTOMIZABLE COLORS ===== */
-:root {
-	--main-color: #93261a; /* Pink */
-	--hover-color: #8c2216; /* Violet/Dark Purple */
-	--popoutColor: #000000;
-	--bgurl: url();
-	--backdrop: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-509261.jpg);
-	--chat-text-color: #E3D4E7;
+/* background imaging */
+body {
+  background: url("--bgurl") !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background-position: right !important;
+  background-repeat: no-repeat !important;
 }
 
 /* User popout */
