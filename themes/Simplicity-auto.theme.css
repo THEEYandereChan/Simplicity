@@ -1,21 +1,5 @@
 //META{"name":"Simplicity Auto","description":"A simplistic theme compatible with BD and Stylish","author":"THEE Yandere - Chan","version":"3.1π"}*//{}
 
-/* IMPORT CSS FROM GITHUB */
-
-/* Mod Loader */
-@import url("https://cdn.rawgit.com/THEEYandereChan/Simplicity/master/mods/UserPopoutsUpgraded.theme.css");
-
-/* Load Base theme */
-@import url("https://cdn.rawgit.com/THEEYandereChan/Simplicity/master/themes/Simplicity%20Beta.theme.css");
-
-/* ===== CUSTOMIZABLE COLORS ===== */
-:root {
-	--main-color: #D56FBC; /* Pink */
-	--hover-color: #382A78; /* Violet/Dark Purple */
-	--bgurl: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-347539.jpg);
-	--chat-text-color: #E3D4E7;
-	//META{"name":"Simplicity Auto","description":"A simplistic theme compatible with BD and Stylish","author":"THEE Yandere - Chan","version":"3.1π"}*//{}
-
 
 
 /* IMPORT CSS FROM GITHUB */
