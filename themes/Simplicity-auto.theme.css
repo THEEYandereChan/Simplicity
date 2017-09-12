@@ -14,6 +14,60 @@
 	--hover-color: #382A78; /* Violet/Dark Purple */
 	--bgurl: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-347539.jpg);
 	--chat-text-color: #E3D4E7;
+	//META{"name":"Simplicity Auto","description":"A simplistic theme compatible with BD and Stylish","author":"THEE Yandere - Chan","version":"3.1π"}*//{}
+
+
+
+/* IMPORT CSS FROM GITHUB */
+
+
+
+
+
+/* Load Base theme */
+
+@import url("https://cdn.rawgit.com/THEEYandereChan/Simplicity/master/themes/Simplicity%20Beta.theme.css");
+
+
+
+/* ===== CUSTOMIZABLE COLORS ===== */
+
+:root {
+
+	--main-color: #D56FBC; /* Pink */
+
+	--hover-color: #382A78; /* Violet/Dark Purple */
+
+	--bgurl: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-347539.jpg);
+
+	--chat-text-color: #E3D4E7;
+
+	--backdrop: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-509261.jpg);
+
+	--chat-text-color: #E3D4E7;
+
+}
+
+
+
+/* Original Colors
+Look how far weve come since this all began
+
+
+
+
+--main-color: #808080;
+
+	--hover-color: #6f182a;
+
+	--bgurl: https://wallpaperlayer.com/img/2015/6/gaussian-blur-wallpaper-3240-3444-hd-wallpapers.jpg;
+
+
+
+
+
+ */
+
 }
 
 /* Original Colors
