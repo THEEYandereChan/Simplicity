@@ -1,14 +1,3 @@
-/** PikaDude's Fade Animations **/
-@import "https://rawgit.com/PikaDude/Discord-Fade-Anims/master/Discord-Fade-Anims.css";
-/** TriggerRimfire's Avatar Shadow **/
-@import "https://rawgit.com/TriggerRimfire/48b3303f4032fffd952c108260a059a4/raw/302f0672b2b7246a26dc2af0fa43bce90955e68b/discord-avatar-shadow.css";
-/** jakeoid's Emoji Animations **/
-@import "https://rawgit.com/jakeoid/discord-emoji-anim/master/stylesheet.css";
-/** Vap0r1ze's Nitro Badges **/
-@import "https://rawgit.com/Vap0r1ze/Discord-Nitro-Badges/master/nitro.css";
-
-/** end **/
-
 /** Ovyerus' Edited Pencil **/
 
 .message-group .comment .edited {
