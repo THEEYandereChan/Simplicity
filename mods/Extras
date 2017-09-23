@@ -1,0 +1,96 @@
+/** PikaDude's Fade Animations **/
+@import "https://rawgit.com/PikaDude/Discord-Fade-Anims/master/Discord-Fade-Anims.css";
+/** TriggerRimfire's Avatar Shadow **/
+@import "https://rawgit.com/TriggerRimfire/48b3303f4032fffd952c108260a059a4/raw/302f0672b2b7246a26dc2af0fa43bce90955e68b/discord-avatar-shadow.css";
+/** jakeoid's Emoji Animations **/
+@import "https://rawgit.com/jakeoid/discord-emoji-anim/master/stylesheet.css";
+/** Vap0r1ze's Nitro Badges **/
+@import "https://rawgit.com/Vap0r1ze/Discord-Nitro-Badges/master/nitro.css";
+
+/** end **/
+
+/** Ovyerus' Edited Pencil **/
+
+.message-group .comment .edited {
+    font-size: 0;
+    width: 13px !important;
+    height: 13px !important;
+    display: inline-block;
+    background-image: url(https://cdn.rawgit.com/twitter/twemoji/gh-pages/svg/270f.svg);
+    background-size: 100%;
+    opacity: 0.5;
+    line-height: 23px;
+    transition: opacity 0.2s;
+}
+
+.message-group .comment .edited:hover {
+    opacity: 1;
+}
+
+/** Lewis' Mods (should get around to labelling these) **/
+
+.app {
+   background: rgba(0, 0, 0, 0.75);
+}
+
+
+
+.friends-icon {
+   background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_question_answer_white_24px.svg) !important;
+   opacity: 0.8;
+   margin-top: 4px;
+   background-size: 50%!important;
+}
+
+.user-popout .body {
+   background: rgb(0, 46, 46);
+}
+
+.user-popout .footer {
+   background: rgb(0, 35, 35);
+   border-top: 0px;
+}
+
+.note textarea:focus {
+   background: #332e2e;
+}
+
+/** Slider white bar fix **/
+
+.scroller {
+	overflow-x: hidden !important;
+}
+
+
+
+
+@import url("https://cdn.rawgit.com/THEEYandereChan/Simplicity/master/mods/UserPopoutsUpgraded.theme.css");
+
+/* Sublime Text Highlighting */
+
+
+.css .hljs-tag,
+.css .hljs-important,
+.css .hljs-at_rule,
+.css .hljs-keyword {
+	color: #f92672 !important;
+}
+.css .hljs-class,
+.css .hljs-id {
+	color: #a6e300 !important;
+}
+.css .hljs-value,
+.css .hljs-hexcolor,
+.css .hljs-number,
+.css .hljs-function {
+	color: rgba(255, 255, 255, 0.8) !important;
+}
+.css .hljs-attribute {
+	color: #82d4e5 !important;
+}
+.css .hljs-comment {
+	color: #686545 !important;
+}
+.css .hljs-pseudo {
+	color: #fff !important;
+}
